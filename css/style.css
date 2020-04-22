@@ -1,5 +1,7 @@
 body {
-  overflow: hidden;   /*this prevents scrollbar*/
+  overflow: hidden;
+  /*this prevents scrollbar*/
+  background: url(../images/light-1282314_1920.jpg);
   width: 100vw;
   height: 100vh;
   padding: 0;
@@ -20,15 +22,19 @@ body {
 .balloon-red {
   background-image: url(../images/balloon-red.png);
 }
+
 .balloon-yellow {
   background-image: url(../images/balloon-yellow.png);
 }
+
 .balloon-blue {
   background-image: url(../images/balloon-blue.png);
 }
+
 .balloon-green {
   background-image: url(../images/balloon-green.png);
 }
+
 .balloon-violet {
   background-image: url(../images/balloon-violet.png);
 }
@@ -49,7 +55,7 @@ body {
   padding: 10px 100px 40px;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
 .lose {
@@ -72,18 +78,3 @@ body {
   bottom: 0;
   left: calc(50% - 150px);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
